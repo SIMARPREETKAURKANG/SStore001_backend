@@ -106,7 +106,8 @@ db.mongoose
 
 var corsOptions = {
 
-  origin: ["http://localhost:8081"],
+  // origin: ["http://localhost:8081"],
+  origin: ["https://main--luminous-platypus-e23f0f.netlify.app/home"],
   credentials: true
 
 };
@@ -171,3 +172,22 @@ app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}.`);
 
 });
+
+
+
+
+
+/*
+ *git:
+ echo "# SStore001_backend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SIMARPREETKAURKANG/SStore001_backend.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/SIMARPREETKAURKANG/SStore001_backend.git
+git branch -M main
+git push -u origin main
+*/
